@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="592px" height="452px" viewBox="0 0 592 452" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>scene</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="592" height="452"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="scene">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Rectangle" fill="#CEC3B4" xlink:href="#path-1"></use>
+            <g id="foam" mask="url(#mask-2)">
+                <g transform="translate(34.000000, -6.000000)">
+                    <ellipse id="Oval" fill="#E1F7F3" cx="55.5" cy="376" rx="55.5" ry="45"></ellipse>
+                    <ellipse id="Oval" fill="#E1F7F3" cx="398.5" cy="370" rx="55.5" ry="45"></ellipse>
+                    <ellipse id="Oval" fill="#E1F7F3" cx="454.5" cy="376" rx="55.5" ry="45"></ellipse>
+                    <ellipse id="Oval" fill="#E1F7F3" cx="115.5" cy="387" rx="55.5" ry="45"></ellipse>
+                    <ellipse id="Oval" fill="#E1F7F3" cx="253.5" cy="362" rx="117.5" ry="53"></ellipse>
+                    <polygon id="waterfall" fill="#E1F7F3" points="191 0 323 0 343 375 171 375"></polygon>
+                    <g id="flurries" stroke-width="1" fill="none" transform="translate(205.000000, 13.000000)">
+                        <polygon id="flurry-1" fill="#F9FEFD" points="10.6520792 34 0 82.7523721 10.6520792 102 12.8090529 89.5518614 8.35380417 85.8524898 12.8090529 45.4011466"></polygon>
+                        <polygon id="flurry-2" fill="#F9FEFD" transform="translate(65.404526, 200.000000) scale(-1, 1) translate(-65.404526, -200.000000) " points="69.6520792 166 59 214.752372 69.6520792 234 71.8090529 221.551861 67.3538042 217.85249 71.8090529 177.401147"></polygon>
+                        <polygon id="flurry-3" fill="#F9FEFD" transform="translate(88.456543, 102.000000) scale(-1, 1) translate(-88.456543, -102.000000) " points="94.913086 77 82 107.905471 88.456543 127 88.456543 107.905471"></polygon>
+                        <polygon id="flurry-4" fill="#F9FEFD" points="12.913086 245 0 275.905471 6.456543 295 6.456543 275.905471"></polygon>
+                        <polygon id="flurry-5" fill="#F9FEFD" points="98.6072409 266 89 294.597986 100 285.03773"></polygon>
+                        <polygon id="flurry-6" fill="#F9FEFD" points="50.7338554 0 42 68 52 45.2677202"></polygon>
+                    </g>
+                </g>
+            </g>
+            <g id="fore-foam" mask="url(#mask-2)" stroke="#F9FEFD" stroke-width="3" fill="#EDFFFC">
+                <g transform="translate(37.000000, 314.000000)" id="Combined-Shape">
+                    <path d="M348.786198,73.9060949 C330.177751,89.5476464 293.813375,100.170213 252,100.170213 C208.923281,100.170213 171.629805,88.8960511 153.576068,72.4747277 C144.962625,87.8226302 114.391766,99.1702128 78,99.1702128 C34.9217895,99.1702128 0,83.2696533 0,63.6553191 C0,44.040985 34.9217895,28.1404255 78,28.1404255 C105.021049,28.1404255 128.832957,34.3964941 142.830207,43.9010126 C149.521816,19.157537 195.847341,0 252,0 C301.451722,0 343.281793,14.8580514 357.131591,35.3044841 C371.426849,27.1930202 393.381507,22 418,22 C461.07821,22 496,37.9005595 496,57.5148936 C496,77.1292278 461.07821,93.0297872 418,93.0297872 C387.907055,93.0297872 361.794391,85.2704169 348.786198,73.9060949 Z"></path>
+                </g>
+            </g>
+            <rect id="sea-base" fill="#62DCE0" mask="url(#mask-2)" x="0" y="357" width="592" height="95"></rect>
+        </g>
+    </g>
+</svg>

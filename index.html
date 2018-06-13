@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+                width: 100%;
+                height: 100%;
+            }
+
+            object {
+                height: 100%;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <object data="assets/waterfall.svg" type="image/svg+xml" id="waterfall-svg">
+        </object>
+
+        <script>
+            var waterfallContainer = document.getElementById('waterfall-svg');
+            waterfallContainer.onload = function() {
+                var canvas = waterfallContainer.getSVGDocument();
+
+                var flurries = canvas.getElementById('flurries').children;
+
+                var waterfallHeight = canvas.getElementById('waterfall').getBBox().height;
+
+                var currentOffsets = Array.from(flurries).map(function(e) {
+                    return e.getBBox().y;
+                });
+
+                setInterval(function() {
+                    for (var i = 0; i < flurries.length; i++) {
+
+                        var flurry = flurries[i];
+
+                        currentOffsets[i] += 0.9;
+                        currentOffsets[i] %= waterfallHeight + 20;
+
+                        var dy = currentOffsets[i] - flurry.getBBox().y - flurry.getBBox().height;
+
+                        flurry.setAttribute('transform', 'translate(0, ' + dy + ')')
+                    }    
+                })
+                
+            }
+        </script>
+    </body>
+</html>
